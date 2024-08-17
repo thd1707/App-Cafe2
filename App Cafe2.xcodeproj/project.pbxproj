@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		50C846C72C6F85D7006EEA0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C846C62C6F85D7006EEA0F /* AppDelegate.swift */; };
 		50C846C92C6F85D7006EEA0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C846C82C6F85D7006EEA0F /* SceneDelegate.swift */; };
-		50C846CB2C6F85D7006EEA0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C846CA2C6F85D7006EEA0F /* ViewController.swift */; };
+		50C846CB2C6F85D7006EEA0F /* VCmenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C846CA2C6F85D7006EEA0F /* VCmenu.swift */; };
 		50C846CE2C6F85D7006EEA0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C846CC2C6F85D7006EEA0F /* Main.storyboard */; };
 		50C846D02C6F85D9006EEA0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C846CF2C6F85D9006EEA0F /* Assets.xcassets */; };
 		50C846D32C6F85D9006EEA0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C846D12C6F85D9006EEA0F /* LaunchScreen.storyboard */; };
+		50C846DB2C6FB595006EEA0F /* ViewControllerCafe1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C846DA2C6FB595006EEA0F /* ViewControllerCafe1.swift */; };
+		50C846DD2C6FB9A1006EEA0F /* ViewControllerCafe2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C846DC2C6FB9A1006EEA0F /* ViewControllerCafe2.swift */; };
+		50C846DF2C6FBC17006EEA0F /* ViewControllerCafe3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C846DE2C6FBC17006EEA0F /* ViewControllerCafe3.swift */; };
+		50C846E12C6FBDD4006EEA0F /* ViewControllerCafe4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C846E02C6FBDD4006EEA0F /* ViewControllerCafe4.swift */; };
+		50C846E32C6FBF71006EEA0F /* ViewControllerCafe5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C846E22C6FBF71006EEA0F /* ViewControllerCafe5.swift */; };
+		50C846E52C6FF3A1006EEA0F /* launchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C846E42C6FF3A1006EEA0F /* launchScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		50C846C32C6F85D7006EEA0F /* App Cafe2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Cafe2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C846C62C6F85D7006EEA0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50C846C82C6F85D7006EEA0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		50C846CA2C6F85D7006EEA0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50C846CA2C6F85D7006EEA0F /* VCmenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCmenu.swift; sourceTree = "<group>"; };
 		50C846CD2C6F85D7006EEA0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50C846CF2C6F85D9006EEA0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50C846D22C6F85D9006EEA0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50C846D42C6F85D9006EEA0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C846DA2C6FB595006EEA0F /* ViewControllerCafe1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCafe1.swift; sourceTree = "<group>"; };
+		50C846DC2C6FB9A1006EEA0F /* ViewControllerCafe2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCafe2.swift; sourceTree = "<group>"; };
+		50C846DE2C6FBC17006EEA0F /* ViewControllerCafe3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCafe3.swift; sourceTree = "<group>"; };
+		50C846E02C6FBDD4006EEA0F /* ViewControllerCafe4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCafe4.swift; sourceTree = "<group>"; };
+		50C846E22C6FBF71006EEA0F /* ViewControllerCafe5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCafe5.swift; sourceTree = "<group>"; };
+		50C846E42C6FF3A1006EEA0F /* launchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = launchScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +70,14 @@
 			children = (
 				50C846C62C6F85D7006EEA0F /* AppDelegate.swift */,
 				50C846C82C6F85D7006EEA0F /* SceneDelegate.swift */,
-				50C846CA2C6F85D7006EEA0F /* ViewController.swift */,
+				50C846CA2C6F85D7006EEA0F /* VCmenu.swift */,
 				50C846CC2C6F85D7006EEA0F /* Main.storyboard */,
+				50C846E42C6FF3A1006EEA0F /* launchScreen.swift */,
+				50C846DA2C6FB595006EEA0F /* ViewControllerCafe1.swift */,
+				50C846DC2C6FB9A1006EEA0F /* ViewControllerCafe2.swift */,
+				50C846DE2C6FBC17006EEA0F /* ViewControllerCafe3.swift */,
+				50C846E02C6FBDD4006EEA0F /* ViewControllerCafe4.swift */,
+				50C846E22C6FBF71006EEA0F /* ViewControllerCafe5.swift */,
 				50C846CF2C6F85D9006EEA0F /* Assets.xcassets */,
 				50C846D12C6F85D9006EEA0F /* LaunchScreen.storyboard */,
 				50C846D42C6F85D9006EEA0F /* Info.plist */,
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50C846CB2C6F85D7006EEA0F /* ViewController.swift in Sources */,
+				50C846CB2C6F85D7006EEA0F /* VCmenu.swift in Sources */,
+				50C846DF2C6FBC17006EEA0F /* ViewControllerCafe3.swift in Sources */,
 				50C846C72C6F85D7006EEA0F /* AppDelegate.swift in Sources */,
+				50C846DD2C6FB9A1006EEA0F /* ViewControllerCafe2.swift in Sources */,
+				50C846E12C6FBDD4006EEA0F /* ViewControllerCafe4.swift in Sources */,
 				50C846C92C6F85D7006EEA0F /* SceneDelegate.swift in Sources */,
+				50C846DB2C6FB595006EEA0F /* ViewControllerCafe1.swift in Sources */,
+				50C846E32C6FBF71006EEA0F /* ViewControllerCafe5.swift in Sources */,
+				50C846E52C6FF3A1006EEA0F /* launchScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
