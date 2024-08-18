@@ -74,35 +74,10 @@ class VCmenu: UIViewController {
                 btn4.tag = 3
                 btn5.tag = 4
 
-                btn1.addTarget(self, action: #selector(navigateToDetail), for: .touchUpInside)
-                btn2.addTarget(self, action: #selector(navigateToDetail), for: .touchUpInside)
-                btn3.addTarget(self, action: #selector(navigateToDetail), for: .touchUpInside)
-                btn4.addTarget(self, action: #selector(navigateToDetail), for: .touchUpInside)
-                btn5.addTarget(self, action: #selector(navigateToDetail), for: .touchUpInside)
+                
     }
     
 
-    @objc func navigateToDetail(_ sender: UIButton) {
-        switch sender.tag {
-        case 0: // Quán cà phê A
-            let cafeADetailVC = storyboard?.instantiateViewController(identifier: "ViewControllerCafe1") as! ViewControllerCafe1
-            navigationController?.pushViewController(cafeADetailVC, animated: true)
-        case 1: // Quán cà phê B
-            let cafeBDetailVC = storyboard?.instantiateViewController(identifier: "ViewControllerCafe2") as! ViewControllerCafe2
-            navigationController?.pushViewController(cafeBDetailVC, animated: true)
-        case 2: // Quán cà phê B
-            let cafeBDetailVC = storyboard?.instantiateViewController(identifier: "ViewControllerCafe3") as! ViewControllerCafe3
-            navigationController?.pushViewController(cafeBDetailVC, animated: true)
-        case 3: // Quán cà phê B
-            let cafeBDetailVC = storyboard?.instantiateViewController(identifier: "ViewControllerCafe4") as! ViewControllerCafe4
-            navigationController?.pushViewController(cafeBDetailVC, animated: true)
-        case 4: // Quán cà phê B
-            let cafeBDetailVC = storyboard?.instantiateViewController(identifier: "ViewControllerCafe5") as! ViewControllerCafe5
-            navigationController?.pushViewController(cafeBDetailVC, animated: true)
-        // ... tương tự cho các quán cà phê còn lại ...
-        default:
-            break
-        }
-    }
+    
 }
 

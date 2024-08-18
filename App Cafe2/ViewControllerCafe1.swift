@@ -19,8 +19,15 @@ class ViewControllerCafe1: UIViewController {
     
     @IBOutlet weak var cafe1image5: UIImageView!
     
+    @IBOutlet weak var cfAdress: UILabel!
     
+    @IBOutlet weak var cf1Menu1: UILabel!
     
+    @IBOutlet weak var cf1Menu2: UILabel!
+    
+    @IBOutlet weak var cf1Menu3: UILabel!
+    
+    @IBOutlet weak var cf1Rec: UILabel!
     
     override func viewDidLoad() {
             super.viewDidLoad()
